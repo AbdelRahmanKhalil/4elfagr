@@ -24,9 +24,9 @@ function App() {
           <HeroSection title="Changing the arabic music scene forever." video="/video-3.mp4"/>
           <HeroSection video="/video-4.mp4"/>
           
-          <iframe src="https://widget.anghami.com/artist/6083539/?theme=fulllight&layout=list&lang=en" scrolling="no" frameborder="0" width="100%" height={300} ></iframe>
+          <iframe src="https://widget.anghami.com/artist/6083539/?theme=fulllight&layout=list&lang=en" scrolling="no" frameBorder="0" width="100%" height={300} ></iframe>
           {/* <iframe src="https://widget.anghami.com/artist/6083539/?theme=fulllight&layout=list&lang=en" scrolling="no" frameborder="0" width={600} height={450} ></iframe> */}
-          <iframe src="https://open.spotify.com/embed/artist/5OohOwlYO1awBrbL71R4fv" width="100%" height="300" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+          <iframe src="https://open.spotify.com/embed/artist/5OohOwlYO1awBrbL71R4fv" width="100%" height="300" frameBorder="0" allowFullScreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
           {/* <iframe frameborder="0" height="450" width="100%"  src="https://embed.music.apple.com/us/artist/4-el-fagr/1502946546"></iframe> */}
         <Switch>
           {/* <Route path='/UI-Design-Trial/' exact component= {Home} />

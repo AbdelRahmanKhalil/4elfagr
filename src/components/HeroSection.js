@@ -12,7 +12,8 @@ export default class HeroSection extends Component {
             console.log(img_path)
             background = <img src={img_path} alt=""/>
         } else if (this.props.video != null) {
-            background = <video src={this.props.video} autoPlay loop muted />
+            const vid_path = process.env.PUBLIC_URL + this.props.video
+            background = <video src={vid_path} autoPlay loop muted />
         } else {
             background = <img src="/img-0.jpg" alt=""/>
         }
