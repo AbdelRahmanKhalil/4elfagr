@@ -9,15 +9,15 @@ export default class HeroSection extends Component {
         let background;
         if (this.props.image != null) {
             const img_path = process.env.PUBLIC_URL + this.props.image
-            console.log(img_path)
+            
             background = <img src={img_path} alt=""/>
         } else if (this.props.video != null) {
             const vid_path = process.env.PUBLIC_URL + this.props.video
-            background = <video src={vid_path} autoPlay loop muted />
+            background = <video src={vid_path} autoPlay loop muted playsInline disablePictureInPicture preload="auto"/>
         } else {
             background = <img src="/img-0.jpg" alt=""/>
         }
-        console.log(background)
+        
         return (
             <div className='hero-container'>
                 {background}
