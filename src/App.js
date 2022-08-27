@@ -29,7 +29,7 @@ function App() {
           
           
         <Switch>
-          <Route path='/' exact component= {Home} />
+          <Route path='/4elfagr/' exact component= {Home} />
           {/* <Route path='/UI-Design-Trial/' exact component= {Home} />
           <Route path='/UI-Design-Trial/ProgressPage' exact component= {ProgressPage} /> */}
         </Switch>
