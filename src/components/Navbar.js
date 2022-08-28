@@ -11,7 +11,7 @@ import Slide from "@mui/material/Slide";
 import IconButton from "@mui/material/IconButton";
 import MenuIcon from "@mui/icons-material/Menu";
 import Button from "@mui/material/Button";
-
+import Sidebar from "./Sidebar";
 
 function HideOnScroll(props) {
   const { children, window } = props;
@@ -45,7 +45,8 @@ export default function Navbar(props) {
       <HideOnScroll {...props}>
         <AppBar>
           <Toolbar>
-            <IconButton
+            <Sidebar />
+            {/* <IconButton
               size="large"
               edge="start"
               color="inherit"
@@ -53,7 +54,7 @@ export default function Navbar(props) {
               sx={{ mr: 2 }}
             >
               <MenuIcon />
-            </IconButton>
+            </IconButton> */}
             <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
               4elfagr
           </Typography>

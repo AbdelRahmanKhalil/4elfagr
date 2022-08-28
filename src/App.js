@@ -8,6 +8,7 @@ import { Box } from "@mui/system";
 import { Typography } from "@mui/material";
 import Zoom from '@mui/material/Zoom';
 import Home from "./pages/home";
+import About from "./pages/About";
 const theme = createTheme({
   palette: {
     type: 'dark',
@@ -30,6 +31,7 @@ function App() {
           
         <Switch>
           <Route path='/4elfagr/' exact component= {Home} />
+          <Route path='/4elfagr/About' exact component= {About} />
           {/* <Route path='/UI-Design-Trial/' exact component= {Home} />
           <Route path='/UI-Design-Trial/ProgressPage' exact component= {ProgressPage} /> */}
         </Switch>
